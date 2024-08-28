@@ -1,8 +1,6 @@
 package br.com.rafael.payrollapi.resources;
 
 import br.com.rafael.payrollapi.domain.Payroll;
-import br.com.rafael.payrollapi.domain.User;
-import br.com.rafael.payrollapi.feignClient.UserFeign;
 import br.com.rafael.payrollapi.services.PayrollService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
